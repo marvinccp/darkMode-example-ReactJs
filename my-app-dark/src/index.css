@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+ padding: 0 ;
+ font-family: 'Poppins',
+ sans-serif;
+ font-size: 65%;
+}
+.Navbar--container{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+}
+nav.dark{
+  background-color: #21222A;
+}
+
+.logo-container{
+  display:flex;
+  align-items: center;
+  margin-right: auto;
+}
+.Navbar--container img{
+  margin-right: 10px;
+  height: 30px;
+}
+.nav-switcher-container{
+  display: flex;
+  margin-right: 20px;
+}
+.dark-mode--switch{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.dark--switch--circle{
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background-color: rgb(53, 53, 53);
+}
+.dark--switch-container{
+  width: 21px;
+  height: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 11px;
+  border: solid 1px rgb(150, 150, 150);
+}
+nav.dark .dark--switch-container {
+  background-color: rgb(80, 80, 80);
+  justify-content: flex-end;
+}
+nav.dark .dark--switch--circle{
+  background-color: rgb(162, 162, 162);
+}
+
+.dark-mode-light-text{
+  margin-right: 7px;
+  font-size: 0.7rem;
+}
+.dark-mode-dark-text {
+  margin-left: 7px;
+  font-size: 0.7rem;
+}
+
+p.dark{
+  margin-left: 7px;
+  font-size: 0.7rem;
+    color: rgb(133, 133, 133);
+}
+.main--container{
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 93vh
+}
+.main--container img{
+  width: 30%;
+}
+main.dark {
+  background-color: #282D35;
+}
